@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS pessoas (
     CONSTRAINT chk_email_formato CHECK (email ~ '^[^@]+@[^@]+\.[^@]+$')
 );
 
-COMMENT ON TABLE pessoas IS "A base para a identificação de qualquer individuo."
+COMMENT ON TABLE pessoas IS "A base para a identificação de qualquer individuo.";
